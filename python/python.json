@@ -1,0 +1,17 @@
+{
+    "python without testcases": {
+        "prefix": "py",
+        "body": [
+          "import sys",
+          "import math",
+          "import collections",
+          "",
+          "sys.stdin= (open('input.txt','r'))",
+          "sys.stdout = (open('output.txt','w'))",
+          "sys.stderr = (open('error.txt','w'))",
+          "",
+          "${pass}"
+        ],
+        "description": "python without testcases"
+      }
+}
